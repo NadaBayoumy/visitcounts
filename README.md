@@ -30,3 +30,15 @@ design patterns :
 4- factory for db or file to save data (partially done)
 5- prepared statemet in sql (done)
 
+
+
+
+IMPORTANT USED LINKS
+--------------
+Setters and getters generator:
+http://mikeangstadt.name/projects/getter-setter-gen/
+
+Mac Validator:
+http://sqa.fyicenter.com/Online_Test_Tools/MAC_Address_Format_Validator.php
+
+

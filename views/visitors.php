@@ -28,7 +28,7 @@ showCounter($Lang,sizeof($visitors));
 
 if (!in_array(get_mac(), $visitors))
 {
-		$sanit_mac = filter_var($mac, FILTER_SANITIZE_STRING);
+		$sanit_mac = filter_var(get_mac(), FILTER_SANITIZE_STRING);
 		//$valid_mac = filter_var($sanit_mac,FILTER_VALIDATE_MAC);
 		//echo filter_var($sanit_mac,FILTER_VALIDATE_MAC);
 		if(filter_var($sanit_mac,FILTER_VALIDATE_MAC)){
